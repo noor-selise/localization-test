@@ -21,9 +21,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Local env files
+# .env is generated at build time by set-env.cjs from .env.{BUILD_ENV}
 .env
-.env.*
-!.env.example
 
 # IDE - VSCode
 .cursor/*
